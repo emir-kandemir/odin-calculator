@@ -12,3 +12,8 @@ const multiply = function (firstNumber, secondNumber) {
   const result = firstNumber * secondNumber;
   return result;
 };
+
+const divide = function (firstNumber, secondNumber) {
+  const result = firstNumber / secondNumber;
+  return result;
+};
