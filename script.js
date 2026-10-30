@@ -7,3 +7,8 @@ const subtract = function (firstNumber, secondNumber) {
   const result = firstNumber - secondNumber;
   return result;
 };
+
+const multiply = function (firstNumber, secondNumber) {
+  const result = firstNumber * secondNumber;
+  return result;
+};
