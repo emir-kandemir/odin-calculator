@@ -26,5 +26,7 @@ const operate = function (firstNumber, secondNumber, operator) {
       return subtract(firstNumber, secondNumber);
     case '*':
       return multiply(firstNumber, secondNumber);
+    case '/':
+      return divide(firstNumber, secondNumber);
   }
 };
