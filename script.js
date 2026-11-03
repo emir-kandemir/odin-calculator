@@ -19,11 +19,8 @@ const divide = function (firstNumber, secondNumber) {
 };
 
 const operate = function (firstNumber, secondNumber, operator) {
-  const operators = ['+', '-', '/', '*'];
   switch (operator) {
     case '+':
-      operator = operators[0];
-      add(firstNumber, secondNumber);
-      break;
+      return add(firstNumber, secondNumber);
   }
 };
