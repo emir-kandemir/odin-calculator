@@ -22,5 +22,7 @@ const operate = function (firstNumber, secondNumber, operator) {
   switch (operator) {
     case '+':
       return add(firstNumber, secondNumber);
+    case '-':
+      return subtract(firstNumber, secondNumber);
   }
 };
