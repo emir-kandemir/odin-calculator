@@ -24,5 +24,7 @@ const operate = function (firstNumber, secondNumber, operator) {
       return add(firstNumber, secondNumber);
     case '-':
       return subtract(firstNumber, secondNumber);
+    case '*':
+      return multiply(firstNumber, secondNumber);
   }
 };
