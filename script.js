@@ -1,21 +1,17 @@
 const add = function (firstNumber, secondNumber) {
-  const result = firstNumber + secondNumber;
-  return result;
+  return firstNumber + secondNumber;
 };
 
 const subtract = function (firstNumber, secondNumber) {
-  const result = firstNumber - secondNumber;
-  return result;
+  return firstNumber - secondNumber;
 };
 
 const multiply = function (firstNumber, secondNumber) {
-  const result = firstNumber * secondNumber;
-  return result;
+  return firstNumber * secondNumber;
 };
 
 const divide = function (firstNumber, secondNumber) {
-  const result = firstNumber / secondNumber;
-  return result;
+  return firstNumber / secondNumber;
 };
 
 const operate = function (firstNumber, secondNumber, operator) {
