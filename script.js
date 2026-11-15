@@ -29,9 +29,11 @@ const operate = function (firstNumber, secondNumber, operator) {
 
 const calcScreen = document.getElementById('calc-screen');
 const buttons = document.querySelectorAll('button');
-
-calcScreen.textContent = buttons.forEach((button) => {
-  button.addEventListener('click', (event) => {
-    return event.target.textContent;
+const buttonText = buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    console.log(button.textContent);
+    return button.textContent;
   });
 });
+
+calcScreen.textContent = 123;
