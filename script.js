@@ -26,3 +26,12 @@ const operate = function (firstNumber, secondNumber, operator) {
       return divide(firstNumber, secondNumber);
   }
 };
+
+const calcScreen = document.getElementById('calc-screen');
+const buttons = document.querySelectorAll('button');
+
+calcScreen.textContent = buttons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    return event.target.textContent;
+  });
+});
